@@ -1,0 +1,79 @@
+/* FLEX = fleksibel*/
+div.container > div{ 
+    background-color: salmon;
+    margin: 10px;
+    font-size: 30px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: khaki;
+    display: flex;
+    height: 400px;
+}
+
+/* PROPERTY FLEXBOX :
+    1. flex-direction
+    2. flex-wrap
+    3. flex-flow 
+    4. justify-content
+    5. align-items
+    6. align-content
+    7.dll.
+*/
+
+/* flex direction (arah) :
+column
+column-reverse
+row
+row-reverse
+
+flex wrap (bungkus) : 
+wrap
+wrap-reverse
+
+flex-flow (gabungan antara flex direction dan fle wrap)(shorthand) :
+flex-flow: flex_direction flex_wrap;
+
+justify-content :
+center
+space-around
+space-between
+space-evenly
+start
+end
+flex-start
+flex-end
+right
+left
+
+align=vertikal, justify=horizontal
+
+align-items :
+baseline
+strech
+flex-start
+flex-end
+center
+
+align-content : 
+
+*/
+
+.container{
+    /* flex-direction:column */
+    /* flex-wrap:wrap-reverse */
+    /* flex-flow: row wrap; */
+    /* justify-content: end; */
+    /* height: 200px;
+    align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction:row-reverse
+
+}
